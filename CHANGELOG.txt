@@ -1,0 +1,43 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on **Keep a Changelog**, and this project follows **semantic versioning**.
+
+---
+
+## [1.0.0] - 2026-06-28
+
+### ✨ Added
+- Initial release of **FU Core Rulebook** module
+- Core Rulebook Bestiary compendium (Actors)
+- Core Rulebook Rare Items compendium (Items)
+- Automatic compendium folder organization:
+  - `FU Core Rulebook`
+- Visual organization with custom folder color support
+- Compatibility with **Foundry VTT v13+**
+- Integration with **Project FU system**
+
+### 📦 Content Structure
+- Bestiary content separated into dedicated Actor compendium
+- Rare items organized in Item compendium
+- Clean and modular structure for easy expansion
+
+### 🎨 UI / UX
+- Compendium folder automatically grouped under a single category
+- Improved readability and organization inside Foundry UI
+
+### ⚙️ Technical Notes
+- Uses Foundry VTT native compendium folder system (`packFolders`)
+- Requires Project FU system dependency
+- No gameplay rules are modified — only data organization
+
+---
+
+## Planned
+
+### 🚧 Future Improvements
+- Expanded bestiary entries
+- Additional item categories (weapons, artifacts, consumables)
+- Icon and branding polish for module UI
+- Optional quality-of-life macros for compendium navigation
