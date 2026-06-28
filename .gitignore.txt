@@ -1,0 +1,14 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Foundry logs
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
