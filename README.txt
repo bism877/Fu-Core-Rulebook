@@ -25,7 +25,7 @@ In Foundry VTT:
 2. Click **Install Module**
 3. Paste the manifest URL:
 
-https://raw.githubusercontent.com/bism877/Fu-Core-Rulebook/main/module.json
+https://github.com/bism877/Fu-Core-Rulebook/releases/latest/download/module.json
 
 
 ---
