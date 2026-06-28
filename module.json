@@ -1,5 +1,6 @@
 {
   "id": "fu-core-rulebook",
+  "type": "module",
   "title": "FU Core Rulebook",
   "version": "1.0.0",
   "description": "<p>Bestiary and Rare Items from the Fabula Ultima Core Rulebook for Project FU.</p>",
@@ -18,13 +19,15 @@
   "relationships": {
     "systems": [
       {
-        "id": "projectfu",
-        "type": "system"
+        "id": "projectfu"
       }
     ]
   },
 
   "url": "https://github.com/bism877/Fu-Core-Rulebook",
+
+  "manifest": "https://raw.githubusercontent.com/bism877/Fu-Core-Rulebook/main/module.json",
+  "download": "https://github.com/bism877/Fu-Core-Rulebook/archive/refs/heads/main.zip",
 
   "packs": [
     {
