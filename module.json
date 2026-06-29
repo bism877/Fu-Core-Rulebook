@@ -29,14 +29,14 @@
   "packs": [
     {
       "name": "core-rulebook-bestiary",
-      "label": "Bestiário do Livro Básico",
+      "label": "Core Rulebook Bestiary",
       "type": "Actor",
       "path": "packs/core-rulebook-bestiary",
       "system": "projectfu"
     },
     {
       "name": "core-rulebook-rare-items",
-      "label": "Itens Raros",
+      "label": "Core Rulebook Rare Items",
       "type": "Item",
       "path": "packs/core-rulebook-rare-items",
       "system": "projectfu"
