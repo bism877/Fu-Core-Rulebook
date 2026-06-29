@@ -3,8 +3,11 @@
   "type": "module",
   "title": "FU Core Rulebook",
   "version": "1.0.0",
+  "description": "Bestiary and Rare Items from Fabula Ultima Core Rulebook",
 
-  "download": "https://github.com/bism877/Fu-Core-Rulebook/releases/download/v1.0.0/fu-core-rulebook.zip",
+  "authors": [
+    { "name": "Babi" }
+  ],
 
   "compatibility": {
     "minimum": "13",
@@ -20,17 +23,29 @@
   "packs": [
     {
       "name": "core-rulebook-bestiary",
-      "label": "Bestiary",
+      "label": "Bestiário do Livro Básico",
       "type": "Actor",
       "path": "packs/core-rulebook-bestiary",
       "system": "projectfu"
     },
     {
       "name": "core-rulebook-rare-items",
-      "label": "Items",
+      "label": "Itens Raros",
       "type": "Item",
       "path": "packs/core-rulebook-rare-items",
       "system": "projectfu"
+    }
+  ],
+
+  "packFolders": [
+    {
+      "name": "FU Core Rulebook",
+      "sorting": "a",
+      "color": "#b93c70",
+      "packs": [
+        "core-rulebook-bestiary",
+        "core-rulebook-rare-items"
+      ]
     }
   ]
 }
