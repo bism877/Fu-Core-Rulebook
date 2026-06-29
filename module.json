@@ -6,9 +6,7 @@
   "description": "<p>Bestiary and Rare Items from the Fabula Ultima Core Rulebook for Project FU.</p>",
 
   "authors": [
-    {
-      "name": "Babi"
-    }
+    { "name": "Babi" }
   ],
 
   "compatibility": {
@@ -18,13 +16,9 @@
 
   "relationships": {
     "systems": [
-      {
-        "id": "projectfu"
-      }
+      { "id": "projectfu" }
     ]
   },
-
-  "manifest": "https://raw.githubusercontent.com/bism877/fu-core-rulebook/main/module.json",
 
   "packs": [
     {
@@ -40,18 +34,6 @@
       "type": "Item",
       "path": "packs/core-rulebook-rare-items",
       "system": "projectfu"
-    }
-  ],
-
-  "packFolders": [
-    {
-      "name": "FU Core Rulebook",
-      "sorting": "a",
-      "color": "#b93c70",
-      "packs": [
-        "core-rulebook-bestiary",
-        "core-rulebook-rare-items"
-      ]
     }
   ]
 }
